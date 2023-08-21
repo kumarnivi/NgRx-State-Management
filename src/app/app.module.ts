@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CounterControlsComponent } from './counter-controls/counter-controls.component';
 import { CounterOutputComponent } from './counter-output/counter-output.component';
+import { AnimationComponent } from './animation/animation.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CounterOutputComponent } from './counter-output/counter-output.componen
     BrowserModule,
     AppRoutingModule,
     CounterControlsComponent,
-    CounterOutputComponent
+    CounterOutputComponent,
+    AnimationComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
