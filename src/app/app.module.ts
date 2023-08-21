@@ -8,7 +8,8 @@ import { CounterOutputComponent } from './counter-output/counter-output.componen
 
 @NgModule({
   declarations: [
-    AppComponent,  
+    AppComponent,
+    
   ],
   imports: [
     BrowserModule,
