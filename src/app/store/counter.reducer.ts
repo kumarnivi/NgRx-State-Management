@@ -1,7 +1,9 @@
-import {createReducer} from '@ngrx/store'
+import { createReducer } from '@ngrx/store';
 
+ const initialState = 0; //* * here we can used all data type
 
-const initialState = 0; //* * here we can used all data type
- export const counterReducer = createReducer(
- initialState
-);
+// export const counterReducer = createReducer(initialState);
+
+export function counterReducer(state = initialState) {
+    return state;
+}
