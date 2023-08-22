@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { CounterControlsComponent } from './counter-controls/counter-controls.component';
 import { CounterOutputComponent } from './counter-output/counter-output.component';
 import { AnimationComponent } from './animation/animation.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
+   
     
   ],
   imports: [
@@ -17,7 +19,8 @@ import { AnimationComponent } from './animation/animation.component';
     AppRoutingModule,
     CounterControlsComponent,
     CounterOutputComponent,
-    AnimationComponent
+    AnimationComponent,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

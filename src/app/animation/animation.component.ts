@@ -6,7 +6,12 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './animation.component.html',
-  styleUrls: ['./animation.component.css']
+  styleUrls: ['./animation.component.css'],
+  // animations:[
+  // trigger("Slider",[
+  //   transition("")
+  // ])
+  // ]
 })
 export class AnimationComponent {
 title = 'angular-animation-lab'

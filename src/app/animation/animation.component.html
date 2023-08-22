@@ -6,7 +6,7 @@
   <button class="btn btn-primary ms-auto" (click)="toggle()">Toggle Content</button>
 
 
-<div class="d-flex box" [ngClass]="{'active':IsOpen}">
+<div class="d-flex box"*ngIf="IsOpen" [ngClass]="{'active':IsOpen}">
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, obcaecati.
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur id
